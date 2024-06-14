@@ -1,0 +1,41 @@
+.Box {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__wrapper {
+    width: 100%;
+    max-width: 1170px;
+    height: 398px;
+    background: white;
+    display: flex;
+    gap: 113px;
+}
+
+.box__wrapper>img{
+    max-width: 555px;
+    height: 351px;
+    width: 100%;
+}
+
+.box__content{
+    width: 100%;
+    max-width: 488px;
+    height: 358px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boxbtn{
+    max-width: 458px;
+    height: 48px;
+    background: #067A46;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
